@@ -1,0 +1,251 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril Fatface:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiko:wght@400&display=swap" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Take A Pic</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+
+    <section>
+
+        <nav class="navbar tavbar navbar-expand-md sticky-top container justify-content-center">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt style="width: 100px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link aa" href="index.html">Home</a>
+                        <a class="nav-link aa" href="Project.html">Project</a>
+                        <a class="nav-link aa" href="Index.html#sec3">Team</a>
+                        <a class="nav-link aa" href="Index.html#sec4">About</a>
+                        <a class="nav-link aa" href="Index.html#sec5">Contact</a>
+                        <span class="d-flex social"><a class="icon" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="35" height="35" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" />
+                                </svg></a>
+                            <a class="icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                </svg></a>
+                            <a class="icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z" />
+                                </svg></a></span>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+    <section>
+        <div class="take-a-pic">
+            <img class="take-a-pic-child w-100" alt="" src="img/title.jpeg">
+
+            <div class="take-a-pic-item"></div>
+            <div class="take-a-pic-inner"></div>
+            <div class="rectangle-div"></div>
+            <div class="take-a-pic-child1"></div>
+            <div class="take-a-pic-child2"></div>
+            <div class="take-a-pic-child3"></div>
+            <div class="frame-div"></div>
+            
+
+            <img class="frame-icon" alt="naturallight" src="img/naturallight.jpeg" />
+
+            <img class="image-23-icon" alt="beautifulfood" src="img/beautifulfood.jpg" />
+
+            <img class="take-a-pic-child5" alt="background" src="img/background.jpg" />
+
+            <img class="take-a-pic-child6" alt="props" src="img/props.jpg" />
+
+            <img class="take-a-pic-child7" alt="angle" src="img/angle.jpg" />
+
+            <div class="take-a-pic1">TAKE A PIC</div>
+            <div class="want-to-capture-container">
+                <span class="want-to-capture-container1">
+                    <p class="want-to-capture">
+                        Want to capture a beautiful photo in a cafe?
+                    </p>
+                    <p class="want-to-capture">
+                        Here’s some important tips while taking photos in a cafe!
+                    </p>
+                </span>
+            </div>
+            <div class="shoot-with-natural-container">
+                <ol class="shoot-with-natural-light">
+                    <li>SHOOT WITH NATURAL LIGHT</li>
+                </ol>
+            </div>
+            <div class="order-beautiful-food-container">
+                <ol class="shoot-with-natural-light">
+                    <li>ORDER BEAUTIFUL FOOD OR DRINK</li>
+                </ol>
+            </div>
+            <div class="look-for-a-container">
+                <ol class="shoot-with-natural-light">
+                    <li>LOOK FOR A BEAUTIFUL BACKGROUND</li>
+                </ol>
+            </div>
+            <div class="use-props">
+                <ol class="shoot-with-natural-light">
+                    <li>USE PROPS</li>
+                </ol>
+            </div>
+            <div class="change-your-angle-container">
+                <ol class="shoot-with-natural-light">
+                    <li>CHANGE YOUR ANGLE</li>
+                </ol>
+            </div>
+            <div class="in-cafes-you">
+                In cafes, you aren’t going to want to cart around a reflector and an
+                assistant to capture the perfect cafe shot. Instead, search for natural
+                light when possible. Natural light is a crucial tool for capturing
+                stunning photos in cafes. After all, natural light gives you the
+                softest light available.
+            </div>
+            <div class="nobody-wants-to-container">
+                <p class="want-to-capture">
+                    Nobody wants to like, share, comment, or use an image of a boring food
+                    or drink item. Keep it interesting. The first step in capturing a
+                    beautiful image in a cafe is photographing a beautiful subject. An
+                    easy go-to in a cafe is ordering a latte, especially if you know the
+                    cafe is known for unique latte art.
+                </p>
+                <p class="want-to-capture">
+                    Next, look for special ingredients. Is there a lavender latte on the
+                    menu? A Turkish coffee pour-over? Unique elements are what cause a
+                    viewer to stop, stare, and engage with an image. Before you order your
+                    drink, consider what the shop creates that will be the most
+                    photographable.
+                </p>
+            </div>
+            <div class="finding-a-beautiful-container">
+                <p class="want-to-capture">
+                    Finding a beautiful background in a cafe for a picture can enhance the
+                    overall aesthetics of the photo and create a more visually appealing
+                    image.
+                </p>
+                <p class="want-to-capture">
+                    Beautiful backgrounds can add depth and interest to a photo, making it
+                    more visually appealing to viewers. A well-chosen background can
+                    complement the subject of the photo and draw attention to it.
+                </p>
+                <p class="want-to-capture">
+                    Cafes often have unique atmospheres created by their interior design,
+                    decor, and ambiance. Capturing this atmosphere in a photo can help
+                    convey the mood and vibe of the cafe, providing context for the
+                    viewer.
+                </p>
+            </div>
+            <div class="props-are-crucial-container">
+                <p class="want-to-capture">
+                    Props are crucial to capturing beautiful photos in cafes. Not only do
+                    props add visual interest, but they also bring a more realistic
+                    approach to your images and help convey the emotion you’re trying to
+                    express.
+                </p>
+                <p class="want-to-capture">
+                    If you’re shooting for stock, refrain from using logo items such as
+                    newspapers and books (unless you can hide them or block them within
+                    your composition). Instead, use found objects such as old film cameras
+                    without logos or flowers, plants, or cutlery to add visual interest to
+                    your frame.
+                </p>
+            </div>
+            <div class="when-shooting-images">
+                When shooting images in cafes, it’s really easy to get stuck on one
+                angle. Move your subject around, and shoot a subject at a variety of
+                angles. Some of our favorite go-tos are 45 degrees, flat lays, and
+                profile view angles. Providing a variety of these images in your stock
+                portfolio allows customers to select the best image that works for their
+                marketing needs. In addition, this gives you a wide selection to choose
+                the image that suits you best if you decide to post it on social media.
+            </div>
+            <div class="tag-us-on-container">
+                <p class="want-to-capture">TAG US ON SOCIAL MEDIA !</p>
+                <p class="want-to-capture">#takeabrew</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+<footer class="text-center text-lg-start footer">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row container justify-content-center lh-lg">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase ct">Contact</h5>
+
+                <ul class="list-unstyled mb-0 ">
+                    <li>
+                        <a href="#!" class="text-body">@takeabrew</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-body">+60193859268</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-body">takeabrew@gmail.com</a>
+                    </li>
+                    <li class="fit">
+                        <a href="#!" class="text-body"><span class="d-flex social"><a class="icon" href="#"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" />
+                                    </svg></a>
+                                <a class="icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                                    </svg></a>
+                                <a class="icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z" />
+                                    </svg></a></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled gusf">
+                    <li>
+                        <textarea name id placeholder="Give us some feedback !"></textarea>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-body smile"><img src="img/Contact - Rate Smile Face.PNG" alt
+                                style="width: 120%; margin-top: -50px  ;margin-left: 43px;"></a>
+                    </li>
+                </ul>
+            </div>
+
+</footer>
+
+</html>
